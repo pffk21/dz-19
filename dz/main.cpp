@@ -40,14 +40,14 @@ int main()
     Africa africa;
     NorthAmerica northAmerica;
 
-    AnimalWorld africanWorld(&africa);
-    AnimalWorld northAmericanWorld(&northAmerica);
+    AnimalWorld african(&africa);
+    AnimalWorld northAmerican(&northAmerica);
 
     cout << "Африка:\n";
-    africanWorld.mealsHerbivores();
-    africanWorld.nutritionCarnivores();
+    african.mealsHerbivores();
+    african.nutritionCarnivores();
 
     cout << "\nСеверная Америка:\n";
-    northAmericanWorld.mealsHerbivores();
-    northAmericanWorld.nutritionCarnivores();
+    northAmerican.mealsHerbivores();
+    northAmerican.nutritionCarnivores();
 }

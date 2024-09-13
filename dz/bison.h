@@ -9,7 +9,7 @@ private:
 public:
     Bison();
     void eatGrass();
-    int getWeight() const;
-    bool isAlive() const; 
+    int Weight() const;
+    bool Alive() const; 
 };
 

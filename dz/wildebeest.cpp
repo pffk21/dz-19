@@ -1,19 +1,21 @@
 #include "wildebeest.h"
 #include <iostream>
-
+using namespace std;
 
 Wildebeest::Wildebeest() : weight(100), alive(true) {}
-void Wildebeest::eatGrass() {
-    if (alive) {
+void Wildebeest::eatGrass()
+{
+    if (alive)
+    {
         weight += 10;
-        std::cout << "Антилопа гну поел травы, его масса: " << weight << "\n";
+        cout << "Антилопа гну поел травы, его масса: " << weight << endl;
     }
 }
-int Wildebeest::getWeight() const
+int Wildebeest::Weight() const
 {
     return weight;
 }
-bool Wildebeest::isAlive() const
+bool Wildebeest::Alive() const
 {
     return alive;
 }

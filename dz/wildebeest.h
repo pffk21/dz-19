@@ -10,7 +10,7 @@ private:
 public:
     Wildebeest();
     void eatGrass();
-    int getWeight() const;
-    bool isAlive() const; 
+    int Weight() const;
+    bool Alive() const; 
 };
 
